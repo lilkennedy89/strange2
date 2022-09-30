@@ -490,6 +490,10 @@ color: #8799b4;
   .slider-review {
     display: none;
   }
+  
+  .subtitle {
+    display: none;
+  }
 }
 
 .slider-review {
