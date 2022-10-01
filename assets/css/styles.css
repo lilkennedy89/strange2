@@ -348,6 +348,7 @@ img {
 .peli-estrenos {
   /* background-color: #A5A1AA; */
   margin-top: 20px;
+  margin-right: 10px;
 }
 
 .grid-container-pelis {
@@ -406,6 +407,7 @@ img {
 .slider-texts {
 grid-area: slider-texts;
 margin-left: 70px;
+cursor: default;
 }
 .slider-picture {
 grid-area: slider-picture;
@@ -490,7 +492,7 @@ color: #8799b4;
   .slider-review {
     display: none;
   }
-  
+
   .subtitle {
     display: none;
   }
@@ -550,3 +552,25 @@ box-shadow: 0 0 0 1px rgba(243, 6, 6, 0.25);
 }
 
 /* slider end */
+
+
+.title-peli {
+  margin-left: 30px;
+  cursor: default;
+}
+
+/* scrool bar start */
+html::-webkit-scrollbar {
+	width: .5rem;
+  }
+  
+  html::-webkit-scrollbar-track {
+	background: #18142f;
+  }
+  
+  html::-webkit-scrollbar-thumb {
+	background: #32a4ba;
+	border-radius: 2px;
+  }
+
+/* scrool abr end */
