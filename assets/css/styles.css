@@ -9,12 +9,12 @@
 
   /*========== Colors ==========*/
   --first-color: #a3a5a5;
-  --first-color-light: #14505c;
+  --first-color-light: #3E5C76;
   --title-color: #ffff;
   --text-color: #ffff;
   --text-color-light: #A5A1AA;
-  --body-color: #141922;
-  --container-color: #162527;
+  --body-color: #0D1321;
+  --container-color: #1D2D44;
 
   /*========== Font and typography ==========*/
   --body-font: 'Poppins', sans-serif;
@@ -511,7 +511,7 @@ color: #8799b4;
 .swiper-hero .swiper-button-prev,
 .swiper-hero .swiper-button-next {
 --swiper-navigation-size: 20px;
-background-color: #01a781;
+background-color: #1D2D44;
 height: 70px;
 width: 50px;
 margin-top: -35px;
@@ -537,7 +537,7 @@ color: #eeee;
 opacity: 1;
 }
 .swiper-hero .swiper-pagination {
---swiper-pagination-color: #01a781;
+--swiper-pagination-color: #1D2D44;
 --swiper-pagination-bullet-size: 10px;
 --swiper-pagination-bullet-inactive-color: #000;
 --swiper-pagination-bullet-inactive-opacity: 0.25;
@@ -548,13 +548,16 @@ opacity: 1;
 box-shadow: inset 0 0 0 1px #fff;
 }
 .swiper-hero .swiper-pagination-bullet-active {
-box-shadow: 0 0 0 1px rgba(243, 6, 6, 0.25);
+box-shadow: 0 0 0 1px #1D2D44;
 }
 
 /* slider end */
 
-
 .title-peli {
+  background: #1D2D44;
+}
+
+.title-peli h2 {
   margin-left: 30px;
   cursor: default;
 }
@@ -565,7 +568,7 @@ html::-webkit-scrollbar {
   }
   
   html::-webkit-scrollbar-track {
-	background: #18142f;
+	background: #1D2D44;
   }
   
   html::-webkit-scrollbar-thumb {
